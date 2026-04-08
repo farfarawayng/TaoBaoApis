@@ -145,7 +145,7 @@ async def handle_message(self, message, websocket):
 1. 感谢 Star ⭐ 和 Follow，项目会持续更新
 2. 作者联系方式在主页，有问题随时联系
 3. 欢迎 PR 和 Issue，也欢迎关注作者其他项目
-4. 如果此项目对您有帮助，欢迎请作者喝一杯奶茶 ~~
+4. 如果此项目对您有帮助，欢迎请原作者喝一杯奶茶，我只是在基础上改动 ~~
 
 <div align="center">
   <img src="https://github.com/cv-cat/Spider_XHS/blob/master/author/wx_pay.png" width="380px" alt="微信赞赏码">
