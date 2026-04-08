@@ -71,7 +71,7 @@ pip install -r requirements.txt
 登录 [goofish.com](https://www.goofish.com) 后，从浏览器开发者工具中复制完整 Cookie 字符串，填入代码对应位置：
 
 ```python
-# goofish_live.py 底部
+# taobao_live.py 底部
 cookies_str = r'your_cookie_string_here'
 ```
 
@@ -90,7 +90,7 @@ docker run -it xianyuapis
 ### 直接运行
 
 ```bash
-python goofish_live.py
+python taobao_live.py
 ```
 
 ---
