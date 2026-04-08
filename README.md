@@ -69,15 +69,6 @@ cookies_str = r'your_cookie_string_here'
 
 > Cookie 必须是**登录后的状态**，否则无法获取消息。
 
-### Docker 部署（推荐）
-
-```bash
-# 构建镜像
-docker build -t taobao-apis .
-
-# 以环境变量方式运行（或 --env-file .env）
-docker run -it taobao-apis
-```
 
 ### 直接运行
 
