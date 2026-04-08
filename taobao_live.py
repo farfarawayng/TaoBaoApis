@@ -342,14 +342,13 @@ class taobaoLive:
                 # 回复文字
                 # reply = f'Hello, {send_user_name}! I am a robot. I am not available now. I will reply to you later.'
                 reply = f'{send_user_name} 说了: {send_message}'
-
                 await self.send_msg(websocket, cid, send_user_id, f"cntaobao{self.nk}",  make_text(reply))
 
                 # 回复图片
                 # res_json = self.taobao.upload_media(r"D:\Desktop\1.png")
                 # image_object = res_json["object"]
                 # width, height = map(int, image_object["pix"].split('x'))
-                # await self.send_msg(websocket, cid, send_user_id, make_image(image_object["url"], width, height))
+                # await self.send_msg(websocket, cid, send_user_id, f"cntaobao{self.nk}", make_image(image_object["fileId"], image_object["url"], image_object["size"], width, height))
             except Exception as e:
                 print(e)
                 pass
