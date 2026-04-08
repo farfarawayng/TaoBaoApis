@@ -2,7 +2,7 @@
 Description: 
 Date: 2026-04-04 15:32:48
 LastEditTime: 2026-04-06 19:10:56
-FilePath: \XianYuApis\XianyuApis.py
+FilePath: \TaobaoApis\taobao_apis.py
 '''
 import json
 import os
